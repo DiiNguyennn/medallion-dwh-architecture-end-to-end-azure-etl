@@ -15,7 +15,7 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 
 ## 3. Data Flow Overview
 
-![Data Architecture](img_architecture/data_flow.png)
+![Data Flow](img_architecture/data_flow.png)
 
 ### **🔹 Source Layer**
 - **Object Type:** CSV File  
