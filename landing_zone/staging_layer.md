@@ -2,7 +2,7 @@
 
 The diagram represents a pipeline in **Azure Data Factory (ADF)** with the following workflow:
 
-![ADF Source to Staging](./img_staging/pl_source_2_staging.png)
+![ADF Source to Staging](img_staging/pl_source_2_staging.png)
 
 1. **Lookup1**
    - Executes a **Lookup** activity to query a configuration table.
@@ -24,4 +24,4 @@ The diagram represents a pipeline in **Azure Data Factory (ADF)** with the follo
 
 `Lookup1 → ForEach1 → (Copy data1 → On failure: Pipeline_Failed_Alert on Fail2) → If ForEach fails → Fail1`
 
-![Data in Staging (ADLS Gen 2)](./img_staging/data_staging.png)
+![Data in Staging (ADLS Gen 2)](img_staging/data_staging.png)
