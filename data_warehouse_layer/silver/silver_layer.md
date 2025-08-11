@@ -1,7 +1,7 @@
 ## Silver Layer Pipeline Overview
 The diagram represents a pipeline in **Azure Data Factory (ADF)** for the Silver Layer with the following workflow:
 
-![ADF Staging to Silver](img_silver/pl_staging_2_silver.png)
+![ADF Staging to Silver](img_silver/pl_bronze_2_silver.png)
 
 1. **Lookup1**
    - Performs a **Lookup** activity to query the configuration table.
