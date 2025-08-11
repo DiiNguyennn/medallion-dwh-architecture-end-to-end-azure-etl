@@ -12,7 +12,7 @@ The goal is to build an optimized **end-to-end ETL pipeline** on Azure for stori
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 
 Hình Data Architecture
-
+![Data Architecture](img_architecture./data_Architecture.png)
 ## 3. Data Flow Overview
 
 Hình Data Flow
