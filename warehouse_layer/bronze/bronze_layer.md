@@ -25,4 +25,4 @@ The diagram represents a pipeline in **Azure Data Factory (ADF)** for the Bronze
 
 ‘Lookup1 → ForEach1 → (Copy data1 → On failure: Pipeline_Failed_Alert on Fail1) → If ForEach fails → Fail2’
 
-![ADF Staging to Bronze](img_bronze/bronze_layer.png)
+![Data in Bronze](img_bronze/bronze_layer.png)
