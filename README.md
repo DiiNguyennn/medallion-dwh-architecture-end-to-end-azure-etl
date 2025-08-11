@@ -79,8 +79,3 @@ Hình Data Flow
 - **Raw data is always preserved** → ensures traceability and auditability.  
 - **Silver Layer for data standardization** → improves data quality.  
 - **Gold Layer in Star Schema** → optimized for analytics and BI tools.
-
----
-
-## 8. Architecture Diagram
-![Data Pipeline](./your_image_path.png)
