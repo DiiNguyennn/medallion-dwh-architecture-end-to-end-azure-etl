@@ -23,6 +23,6 @@ The diagram represents a pipeline in **Azure Data Factory (ADF)** for the Bronze
 
 ### Workflow Summary
 
-‘Lookup1 → ForEach1 → (Copy data1 → On failure: Pipeline_Failed_Alert on Fail1) → If ForEach fails → Fail2’
+`Lookup1 → ForEach1 → (Copy data1 → On failure: Pipeline_Failed_Alert on Fail1) → If ForEach fails → Fail2`
 
 ![Data in Bronze layer](img_bronze/bronze_layer.png)
