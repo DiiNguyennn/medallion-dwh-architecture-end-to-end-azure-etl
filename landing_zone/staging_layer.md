@@ -2,7 +2,7 @@
 
 The diagram represents a pipeline in **Azure Data Factory (ADF)** with the following workflow:
 
-![ADF Source to Staging](img_staging/pl_source_2_staging.png)
+![ADF Source to Staging](landing_zone/img_staging/data_qtaging.png)
 
 1. **Lookup1**
    - Executes a **Lookup** activity to query a configuration table.
