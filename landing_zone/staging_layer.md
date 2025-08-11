@@ -24,4 +24,4 @@ The diagram represents a pipeline in **Azure Data Factory (ADF)** with the follo
 
 `Lookup1 → ForEach1 → (Copy data1 → On failure: Pipeline_Failed_Alert on Fail2) → If ForEach fails → Fail1`
 
-![Data in Staging (ADLS Gen 2)](img_staging/data_staging.png)
+![Data in Staging (ADLS Gen 2)](landing_zone/img_staging/PL_source_2_staging.png)
