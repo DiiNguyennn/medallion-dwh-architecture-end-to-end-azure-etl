@@ -60,12 +60,7 @@ Hình Data Flow
 
 ---
 
-## 5. Consumption Layer
-- Use **Power BI** for data visualization and dashboard reporting.
-
----
-
-## 6. Technologies Used
+## 5. Technologies Used
 - **Azure Data Factory** – Build and orchestrate the ETL pipeline.  
 - **Azure Data Lake Gen2** – Store raw and staging data.  
 - **Azure SQL Database** – Store Bronze, Silver, and Gold data as tables.  
@@ -74,7 +69,7 @@ Hình Data Flow
 
 ---
 
-## 7. Key Highlights
+## 6. Key Highlights
 - **Clear separation of data layers** → easier management, maintenance, and scalability.  
 - **Raw data is always preserved** → ensures traceability and auditability.  
 - **Silver Layer for data standardization** → improves data quality.  
