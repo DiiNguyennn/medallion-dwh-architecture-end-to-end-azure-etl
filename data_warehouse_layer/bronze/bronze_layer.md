@@ -1,7 +1,7 @@
 ## Bronze Layer Pipeline Overview
 The diagram represents a pipeline in **Azure Data Factory (ADF)** for the Bronze Layer with the following workflow:
 
-![ADF Staging to Bronze](img_bronze/pl_staging_2_bronze.png)
+![ADF Staging to Bronze](img_bronze/PL_staging_2_Bronze.png)
 
 1. **Lookup1**
    - Performs a **Lookup** activity to query the configuration table.
@@ -25,4 +25,4 @@ The diagram represents a pipeline in **Azure Data Factory (ADF)** for the Bronze
 
 ‘Lookup1 → ForEach1 → (Copy data1 → On failure: Pipeline_Failed_Alert on Fail1) → If ForEach fails → Fail2’
 
-![ADF Staging to Bronze](img_bronze/bronze_layer.png)
+![ADF Staging to Bronze](img_bronze/Bronze_Layer.png)
