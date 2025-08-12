@@ -75,4 +75,4 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 - **Silver Layer for data standardization** → improves data quality.  
 - **Gold Layer in Star Schema** → optimized for analytics and BI tools.
 
-![ADF PL ETL](data_warehouse_layer\etl_pipeline.png)
+![ADF PL ETL](data_warehouse_layer/etl_pipeline.png)
