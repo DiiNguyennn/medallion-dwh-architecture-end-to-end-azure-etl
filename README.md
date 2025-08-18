@@ -31,7 +31,7 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 
 ---
 
-## 4. Data Warehouse Layers
+## 4. Data Warehouse Layers (Azure SQL Database)
 
 ### **🔹 Bronze Layer – Raw Data**
 - **Object Type:** Tables  
