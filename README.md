@@ -65,7 +65,6 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 - **Azure Data Lake Gen2** – Store raw and staging data.  
 - **Azure SQL Database** – Store Bronze, Silver, and Gold data as tables.  
 - **SQL** – Execute queries, stored procedures, and data transformations.  
-- **Power BI** – Visualize data and create reports.
 
 ---
 
