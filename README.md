@@ -18,15 +18,15 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 ![Data Flow](img_architecture/data_flow.png)
 
 ### **🔹 Source Layer**
-- **Object Type:** CSV File  
-- **Interface:** File in Folder  
-- **Storage:** Azure Data Lake Gen2  
+- **Object Type:** CSV File.
+- **Interface:** File in Folder.  
+- **Storage:** Azure Data Lake Gen2.  
 - Contains raw data from the original sources.
 
 ### **🔹 Staging Layer**
-- **Object Type:** CSV File  
-- **Interface:** File in Folder  
-- **Storage:** Azure Data Lake Gen2  
+- **Object Type:** CSV File.  
+- **Interface:** File in Folder.  
+- **Storage:** Azure Data Lake Gen2.  
 - Holds temporary data ready to be loaded into the Bronze Layer.
 
 ---
@@ -34,28 +34,28 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 ## 4. Data Warehouse Layers (Azure SQL Database)
 
 ### **🔹 Bronze Layer – Raw Data**
-- **Object Type:** Tables  
-- **Load:** Batch Processing, Full Load, Insert  
-- **Transformations:** None (*as-is*)  
-- **Data model:** None  
+- **Object Type:** Tables.  
+- **Load:** Batch Processing, Full Load, Insert.  
+- **Transformations:** None (*as-is*).  
+- **Data model:** None.  
 - **Purpose:** Preserve all raw data for traceability and recovery.
 
 ### **🔹 Silver Layer – Cleaned & Standardized Data**
-- **Object Type:** Tables  
-- **Load:** Batch Processing, Full Load, Insert  
+- **Object Type:** Tables.  
+- **Load:** Batch Processing, Full Load, Insert.  
 - **Transformations:**
-  - Data cleansing
-  - Casting column data types  
-- **Data model:** None  
+  - Data cleansing.
+  - Casting column data types.  
+- **Data model:** None.  
 - **Purpose:** Standardize and prepare data for integration and analysis.
 
 ### **🔹 Gold Layer – Business-ready Data**
-- **Object Type:** Tables  
-- **Load:** Batch Processing, Full Load, Delete and Insert  
+- **Object Type:** Tables.  
+- **Load:** Batch Processing, Full Load, Delete and Insert.  
 - **Transformations:**
-  - Data integrations
-  - Business logics  
-- **Data model:** Star Schema  
+  - Data integrations.
+  - Business logics.  
+- **Data model:** Star Schema.  
 - **Purpose:** Provide final, business-ready data for reporting and analytics.
 
 ---
